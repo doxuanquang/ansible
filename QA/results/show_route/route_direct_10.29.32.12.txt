@@ -1,0 +1,21 @@
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-418-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.12/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.12, Lo0, [0/0], 6d02h, direct
+10.29.33.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.35, Vlan1901, [0/0], 6d02h, direct
+10.29.34.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.163, Vlan4060, [0/0], 6d02h, direct
+100.64.52.42/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.42, Eth1/45, [0/0], 4d07h, direct
+100.64.52.44/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.44, Eth1/46, [0/0], 6d02h, direct
+138.8.124.32/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.35, Vlan1100, [0/0], 6d02h, direct

@@ -1,0 +1,21 @@
+---
+- name: NY4 Expansion QA
+  hosts: all
+  gather_facts: no
+  connection: local
+  vars:
+    commands:
+        - conf t
+        - username gsadmin password 0 nY4gs3t19! role network-admin
+        - end
+        - wr
+  tasks:
+  - nxos_command:
+      provider:
+        # Use enable mode?
+        authorize: yes
+      commands: "{{ commands }}"
+    register: results
+
+  - debug:
+     msg: "{{ results }}"

@@ -1,0 +1,17 @@
+---
+############ Ansible version 2.5 #############
+############ FIRST RUN A LOCAL BACKUP #############
+- name: Backup nxos Switch Config
+  hosts: all
+  gather_facts: no
+  connection: local  
+  tasks:
+    - name: Gathering configuration
+      nxos_config:
+        backup: yes
+        provider:
+          authorize: yes 
+      tags: 
+        - nxos
+      
+                              

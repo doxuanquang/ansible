@@ -1,0 +1,26 @@
+---
+- name: NY4 Expansion QA
+  hosts: all
+  gather_facts: no
+  connection: local
+  vars:
+    commands:
+        - conf t
+        - policy-map type control-plane copp-system-policy 
+        - class copp-ssh
+        - police pps 500
+        - exit
+        - class copp-s-bpdu
+        - police pps 6000
+        - end
+        - wr
+  tasks:
+  - nxos_command:
+      provider:
+        # Use enable mode?
+        authorize: yes
+      commands: "{{ commands }}"
+    register: results
+
+  - debug:
+     msg: "{{ results }}"

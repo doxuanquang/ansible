@@ -1,0 +1,21 @@
+---
+- name: NY4 Expansion QA
+  hosts: all
+  gather_facts: no
+  connection: local
+  vars:
+    commands:
+        - conf t
+        - port-channel load-balance ethernet source-dest-port
+        - end
+        - wr
+  tasks:
+  - nxos_command:
+      provider:
+        # Use enable mode?
+        authorize: yes
+      commands: "{{ commands }}"
+    register: results
+
+  - debug:
+     msg: "{{ results }}"

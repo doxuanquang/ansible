@@ -1,0 +1,1656 @@
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-419-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.10/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.10, Lo0, [0/0], 6d02h, direct
+10.29.33.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.3, Vlan1901, [0/0], 6d02h, direct
+10.29.34.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.131, Vlan4060, [0/0], 6d02h, direct
+100.64.52.34/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.34, Eth1/45, [0/0], 4d07h, direct
+100.64.52.36/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.36, Eth1/46, [0/0], 6d02h, direct
+138.8.124.0/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.3, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-418-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.11/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.11, Lo0, [0/0], 6d02h, direct
+10.29.33.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.34, Vlan1901, [0/0], 6d02h, direct
+10.29.34.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.162, Vlan4060, [0/0], 6d02h, direct
+100.64.52.38/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.38, Eth1/45, [0/0], 4d07h, direct
+100.64.52.40/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.40, Eth1/46, [0/0], 6d02h, direct
+138.8.124.32/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.34, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-418-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.12/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.12, Lo0, [0/0], 6d02h, direct
+10.29.33.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.35, Vlan1901, [0/0], 6d02h, direct
+10.29.34.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.163, Vlan4060, [0/0], 6d02h, direct
+100.64.52.42/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.42, Eth1/45, [0/0], 4d07h, direct
+100.64.52.44/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.44, Eth1/46, [0/0], 6d02h, direct
+138.8.124.32/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.35, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-417-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.13/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.13, Lo0, [0/0], 6d02h, direct
+10.29.33.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.66, Vlan1901, [0/0], 6d02h, direct
+10.29.34.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.194, Vlan4060, [0/0], 6d02h, direct
+100.64.52.46/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.46, Eth1/45, [0/0], 4d07h, direct
+100.64.52.48/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.48, Eth1/46, [0/0], 6d02h, direct
+138.8.124.64/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.66, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-417-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.14/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.14, Lo0, [0/0], 6d02h, direct
+10.29.33.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.67, Vlan1901, [0/0], 6d02h, direct
+10.29.34.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.195, Vlan4060, [0/0], 6d02h, direct
+100.64.52.50/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.50, Eth1/45, [0/0], 4d07h, direct
+100.64.52.52/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.52, Eth1/46, [0/0], 5d12h, direct
+138.8.124.64/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.67, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-416-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.15/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.15, Lo0, [0/0], 6d02h, direct
+10.29.33.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.98, Vlan1901, [0/0], 6d02h, direct
+10.29.34.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.226, Vlan4060, [0/0], 6d02h, direct
+100.64.52.54/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.54, Eth1/45, [0/0], 4d07h, direct
+100.64.52.56/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.56, Eth1/46, [0/0], 6d02h, direct
+138.8.124.96/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.98, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-416-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.16/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.16, Lo0, [0/0], 6d02h, direct
+10.29.33.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.99, Vlan1901, [0/0], 6d02h, direct
+10.29.34.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.227, Vlan4060, [0/0], 6d02h, direct
+100.64.52.58/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.58, Eth1/45, [0/0], 4d07h, direct
+100.64.52.60/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.60, Eth1/46, [0/0], 6d02h, direct
+138.8.124.96/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.99, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-415-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.17/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.17, Lo0, [0/0], 6d02h, direct
+10.29.33.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.130, Vlan1901, [0/0], 6d02h, direct
+10.29.35.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.35.2, Vlan4060, [0/0], 6d02h, direct
+100.64.52.62/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.62, Eth1/45, [0/0], 4d07h, direct
+100.64.52.64/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.64, Eth1/46, [0/0], 6d02h, direct
+138.8.124.128/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.130, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-415-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.18/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.18, Lo0, [0/0], 6d02h, direct
+100.64.52.66/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.66, Eth1/45, [0/0], 4d07h, direct
+100.64.52.68/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.68, Eth1/46, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-414-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.19/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.19, Lo0, [0/0], 6d02h, direct
+10.29.33.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.162, Vlan1901, [0/0], 6d02h, direct
+100.64.52.70/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.70, Eth1/45, [0/0], 4d07h, direct
+100.64.52.72/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.72, Eth1/46, [0/0], 6d02h, direct
+138.8.124.160/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.162, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-412-CR-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.1/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.1, Lo0, [0/0], 4d07h, direct
+10.64.40.0/31, ubest/mbest: 1/0, attached
+    *via 10.64.40.0, Po2, [0/0], 4d07h, direct
+10.64.41.24/31, ubest/mbest: 1/0, attached
+    *via 10.64.41.25, Po10, [0/0], 4d07h, direct
+10.64.41.26/31, ubest/mbest: 1/0, attached
+    *via 10.64.41.27, Po20, [0/0], 4d07h, direct
+10.64.41.40/31, ubest/mbest: 1/0, attached
+    *via 10.64.41.40, Eth1/37, [0/0], 4d07h, direct
+100.64.52.6/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.6, Eth1/46, [0/0], 4d07h, direct
+100.64.52.10/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.11, Eth1/45, [0/0], 4d07h, direct
+100.64.52.22/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.23, Eth1/25, [0/0], 4d07h, direct
+100.64.52.26/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.27, Eth1/26, [0/0], 4d07h, direct
+100.64.52.30/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.31, Eth1/1, [0/0], 4d07h, direct
+100.64.52.34/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.35, Eth1/2, [0/0], 4d07h, direct
+100.64.52.38/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.39, Eth1/3, [0/0], 4d07h, direct
+100.64.52.42/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.43, Eth1/4, [0/0], 4d07h, direct
+100.64.52.46/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.47, Eth1/5, [0/0], 4d07h, direct
+100.64.52.50/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.51, Eth1/6, [0/0], 4d07h, direct
+100.64.52.54/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.55, Eth1/7, [0/0], 4d07h, direct
+100.64.52.58/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.59, Eth1/8, [0/0], 4d07h, direct
+100.64.52.62/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.63, Eth1/9, [0/0], 4d07h, direct
+100.64.52.66/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.67, Eth1/10, [0/0], 4d07h, direct
+100.64.52.70/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.71, Eth1/11, [0/0], 4d07h, direct
+100.64.52.74/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.75, Eth1/12, [0/0], 4d07h, direct
+100.64.52.76/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.77, Eth1/13, [0/0], 4d07h, direct
+100.64.52.80/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.81, Eth1/14, [0/0], 4d07h, direct
+100.64.52.84/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.85, Eth1/15, [0/0], 4d07h, direct
+100.64.52.88/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.89, Eth1/16, [0/0], 4d07h, direct
+100.64.52.92/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.93, Eth1/17, [0/0], 4d07h, direct
+100.64.52.96/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.97, Eth1/18, [0/0], 4d07h, direct
+100.64.52.100/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.101, Eth1/19, [0/0], 4d07h, direct
+100.64.52.104/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.105, Eth1/20, [0/0], 4d07h, direct
+100.64.52.108/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.109, Eth1/21, [0/0], 4d07h, direct
+100.64.52.112/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.113, Eth1/22, [0/0], 4d07h, direct
+100.64.52.116/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.117, Eth1/23, [0/0], 4d07h, direct
+100.64.52.120/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.121, Eth1/24, [0/0], 4d07h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-414-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.20/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.20, Lo0, [0/0], 6d02h, direct
+10.29.33.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.163, Vlan1901, [0/0], 6d02h, direct
+100.64.52.74/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.74, Eth1/45, [0/0], 4d07h, direct
+100.64.53.28/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.28, Eth1/46, [0/0], 17:43:42, direct
+138.8.124.160/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.163, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-413-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.21/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.21, Lo0, [0/0], 6d02h, direct
+10.29.33.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.194, Vlan1901, [0/0], 6d02h, direct
+10.29.44.32/28, ubest/mbest: 1/0, attached
+    *via 10.29.44.34, Vlan4051, [0/0], 6d02h, direct
+100.64.52.76/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.76, Eth1/45, [0/0], 4d07h, direct
+100.64.52.78/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.78, Eth1/46, [0/0], 5d12h, direct
+138.8.124.192/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.194, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-413-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.22/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.22, Lo0, [0/0], 6d02h, direct
+10.29.33.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.195, Vlan1901, [0/0], 6d02h, direct
+10.29.44.32/28, ubest/mbest: 1/0, attached
+    *via 10.29.44.35, Vlan4051, [0/0], 6d02h, direct
+100.64.52.80/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.80, Eth1/45, [0/0], 4d07h, direct
+100.64.52.82/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.82, Eth1/46, [0/0], 6d02h, direct
+138.8.124.192/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.195, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-410-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.23/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.23, Lo0, [0/0], 6d02h, direct
+10.29.33.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.226, Vlan1901, [0/0], 6d02h, direct
+100.64.52.84/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.84, Eth1/45, [0/0], 4d07h, direct
+100.64.52.86/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.86, Eth1/46, [0/0], 6d02h, direct
+138.8.124.224/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.226, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-410-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.24/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.24, Lo0, [0/0], 6d02h, direct
+10.29.33.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.227, Vlan1901, [0/0], 6d02h, direct
+100.64.52.88/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.88, Eth1/45, [0/0], 4d07h, direct
+100.64.52.90/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.90, Eth1/46, [0/0], 1d07h, direct
+138.8.124.224/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.227, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-408-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.25/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.25, Lo0, [0/0], 6d02h, direct
+10.29.34.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.2, Vlan1901, [0/0], 6d02h, direct
+10.29.42.0/26, ubest/mbest: 1/0, attached
+    *via 10.29.42.2, Vlan4070, [0/0], 6d02h, direct
+100.64.52.92/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.92, Eth1/45, [0/0], 4d07h, direct
+100.64.52.94/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.94, Eth1/46, [0/0], 6d02h, direct
+138.8.125.0/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.2, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-408-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.26/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.26, Lo0, [0/0], 6d02h, direct
+10.29.34.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.3, Vlan1901, [0/0], 6d02h, direct
+10.29.42.0/26, ubest/mbest: 1/0, attached
+    *via 10.29.42.3, Vlan4070, [0/0], 6d02h, direct
+100.64.52.96/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.96, Eth1/45, [0/0], 4d07h, direct
+100.64.52.98/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.98, Eth1/46, [0/0], 6d02h, direct
+138.8.125.0/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.3, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-402-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.27/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.27, Lo0, [0/0], 6d02h, direct
+10.29.34.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.34, Vlan1901, [0/0], 6d02h, direct
+10.29.42.64/26, ubest/mbest: 1/0, attached
+    *via 10.29.42.66, Vlan4070, [0/0], 2d07h, direct
+100.64.52.100/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.100, Eth1/45, [0/0], 4d07h, direct
+100.64.52.102/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.102, Eth1/46, [0/0], 6d02h, direct
+138.8.125.32/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.34, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-402-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.28/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.28, Lo0, [0/0], 6d02h, direct
+10.29.34.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.35, Vlan1901, [0/0], 6d02h, direct
+10.29.42.64/26, ubest/mbest: 1/0, attached
+    *via 10.29.42.67, Vlan4070, [0/0], 6d02h, direct
+100.64.52.104/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.104, Eth1/45, [0/0], 4d07h, direct
+100.64.52.106/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.106, Eth1/46, [0/0], 5d10h, direct
+138.8.125.32/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.35, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-401-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.29/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.29, Lo0, [0/0], 6d02h, direct
+10.29.34.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.66, Vlan1901, [0/0], 6d02h, direct
+10.29.35.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.35.130, Vlan4054, [0/0], 6d02h, direct
+100.64.52.108/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.108, Eth1/45, [0/0], 4d07h, direct
+100.64.52.110/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.110, Eth1/46, [0/0], 5d10h, direct
+138.8.125.64/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.66, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-412-CR-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.2/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.2, Lo0, [0/0], 6d02h, direct
+10.64.40.0/31, ubest/mbest: 1/0, attached
+    *via 10.64.40.1, Po2, [0/0], 4d07h, direct
+10.64.41.28/31, ubest/mbest: 1/0, attached
+    *via 10.64.41.29, Po11, [0/0], 4d09h, direct
+10.64.41.30/31, ubest/mbest: 1/0, attached
+    *via 10.64.41.31, Po21, [0/0], 4d01h, direct
+10.64.41.42/31, ubest/mbest: 1/0, attached
+    *via 10.64.41.42, Eth1/37, [0/0], 6d02h, direct
+100.64.52.8/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.8, Eth1/46, [0/0], 6d02h, direct
+100.64.52.12/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.13, Eth1/45, [0/0], 6d02h, direct
+100.64.52.24/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.25, Eth1/25, [0/0], 6d02h, direct
+100.64.52.28/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.29, Eth1/26, [0/0], 6d02h, direct
+100.64.52.32/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.33, Eth1/1, [0/0], 6d02h, direct
+100.64.52.36/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.37, Eth1/2, [0/0], 6d02h, direct
+100.64.52.40/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.41, Eth1/3, [0/0], 6d02h, direct
+100.64.52.44/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.45, Eth1/4, [0/0], 6d02h, direct
+100.64.52.48/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.49, Eth1/5, [0/0], 6d02h, direct
+100.64.52.52/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.53, Eth1/6, [0/0], 5d12h, direct
+100.64.52.56/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.57, Eth1/7, [0/0], 6d02h, direct
+100.64.52.60/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.61, Eth1/8, [0/0], 6d02h, direct
+100.64.52.64/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.65, Eth1/9, [0/0], 6d02h, direct
+100.64.52.68/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.69, Eth1/10, [0/0], 6d02h, direct
+100.64.52.72/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.73, Eth1/11, [0/0], 6d02h, direct
+100.64.52.78/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.79, Eth1/13, [0/0], 5d12h, direct
+100.64.52.82/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.83, Eth1/14, [0/0], 6d02h, direct
+100.64.52.86/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.87, Eth1/15, [0/0], 6d02h, direct
+100.64.52.90/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.91, Eth1/16, [0/0], 1d07h, direct
+100.64.52.94/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.95, Eth1/17, [0/0], 6d02h, direct
+100.64.52.98/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.99, Eth1/18, [0/0], 6d02h, direct
+100.64.52.102/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.103, Eth1/19, [0/0], 6d02h, direct
+100.64.52.106/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.107, Eth1/20, [0/0], 5d10h, direct
+100.64.52.110/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.111, Eth1/21, [0/0], 5d10h, direct
+100.64.52.114/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.115, Eth1/22, [0/0], 6d02h, direct
+100.64.52.118/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.119, Eth1/23, [0/0], 5d10h, direct
+100.64.52.122/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.123, Eth1/24, [0/0], 6d02h, direct
+100.64.53.28/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.29, Eth1/12, [0/0], 17:44:02, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-401-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.30/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.30, Lo0, [0/0], 6d02h, direct
+10.29.34.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.67, Vlan1901, [0/0], 6d02h, direct
+10.29.35.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.35.131, Vlan4054, [0/0], 6d02h, direct
+100.64.52.112/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.112, Eth1/45, [0/0], 4d07h, direct
+100.64.52.114/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.114, Eth1/46, [0/0], 6d02h, direct
+138.8.125.64/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.67, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-301-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.31/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.31, Lo0, [0/0], 6d02h, direct
+10.29.34.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.98, Vlan1901, [0/0], 6d02h, direct
+10.29.44.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.44.2, Vlan4052, [0/0], 6d02h, direct
+100.64.52.116/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.116, Eth1/45, [0/0], 4d07h, direct
+100.64.52.118/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.118, Eth1/46, [0/0], 5d10h, direct
+138.8.125.96/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.98, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-301-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.32/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.32, Lo0, [0/0], 6d02h, direct
+10.29.34.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.99, Vlan1901, [0/0], 6d02h, direct
+10.29.44.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.44.3, Vlan4052, [0/0], 6d02h, direct
+100.64.52.120/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.120, Eth1/45, [0/0], 4d07h, direct
+100.64.52.122/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.122, Eth1/46, [0/0], 6d02h, direct
+138.8.125.96/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.99, Vlan1100, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-419-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.33/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.33, Lo0, [0/0], 3d06h, direct
+10.29.36.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.2, Vlan101, [0/0], 3d06h, direct
+10.29.37.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.130, Vlan102, [0/0], 3d06h, direct
+100.64.52.124/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.124, Eth1/49, [0/0], 3d06h, direct
+100.64.52.126/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.126, Eth1/50, [0/0], 3d06h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-419-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.34/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.34, Lo0, [0/0], 3d06h, direct
+10.29.36.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.3, Vlan101, [0/0], 3d06h, direct
+10.29.37.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.131, Vlan102, [0/0], 3d06h, direct
+100.64.52.128/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.128, Eth1/49, [0/0], 3d06h, direct
+100.64.52.130/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.130, Eth1/50, [0/0], 3d06h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-418-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.35/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.35, Lo0, [0/0], 3d06h, direct
+10.29.36.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.34, Vlan101, [0/0], 3d06h, direct
+10.29.37.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.162, Vlan102, [0/0], 3d06h, direct
+100.64.52.132/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.132, Eth1/49, [0/0], 3d06h, direct
+100.64.52.134/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.134, Eth1/50, [0/0], 3d06h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-418-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.36/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.36, Lo0, [0/0], 3d06h, direct
+10.29.36.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.35, Vlan101, [0/0], 3d06h, direct
+10.29.37.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.163, Vlan102, [0/0], 3d06h, direct
+100.64.52.136/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.136, Eth1/49, [0/0], 3d06h, direct
+100.64.52.138/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.138, Eth1/50, [0/0], 3d06h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-417-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.37/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.37, Lo0, [0/0], 3d05h, direct
+10.29.36.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.66, Vlan101, [0/0], 3d05h, direct
+10.29.37.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.194, Vlan102, [0/0], 3d05h, direct
+100.64.52.140/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.140, Eth1/49, [0/0], 3d05h, direct
+100.64.52.142/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.142, Eth1/50, [0/0], 3d05h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-417-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.38/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.38, Lo0, [0/0], 3d05h, direct
+10.29.36.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.67, Vlan101, [0/0], 3d05h, direct
+10.29.37.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.195, Vlan102, [0/0], 3d05h, direct
+100.64.52.144/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.144, Eth1/49, [0/0], 3d05h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-416-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.39/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.39, Lo0, [0/0], 3d05h, direct
+10.29.36.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.98, Vlan101, [0/0], 3d05h, direct
+10.29.37.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.226, Vlan102, [0/0], 3d05h, direct
+100.64.52.148/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.148, Eth1/49, [0/0], 3d05h, direct
+100.64.52.150/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.150, Eth1/50, [0/0], 3d05h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-412-CR-02A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.3/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.3, Lo0, [0/0], 6d03h, direct
+10.64.40.2/31, ubest/mbest: 1/0, attached
+    *via 10.64.40.2, Po2, [0/0], 6d02h, direct
+100.64.52.6/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.7, Eth1/46, [0/0], 4d07h, direct
+100.64.52.124/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.125, Eth1/1, [0/0], 3d06h, direct
+100.64.52.128/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.129, Eth1/2, [0/0], 3d06h, direct
+100.64.52.132/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.133, Eth1/3, [0/0], 3d06h, direct
+100.64.52.136/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.137, Eth1/4, [0/0], 3d06h, direct
+100.64.52.140/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.141, Eth1/5, [0/0], 3d05h, direct
+100.64.52.144/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.145, Eth1/6, [0/0], 3d05h, direct
+100.64.52.148/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.149, Eth1/7, [0/0], 3d05h, direct
+100.64.52.152/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.153, Eth1/8, [0/0], 3d05h, direct
+100.64.52.156/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.157, Eth1/9, [0/0], 3d05h, direct
+100.64.52.160/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.161, Eth1/10, [0/0], 3d05h, direct
+100.64.52.164/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.165, Eth1/11, [0/0], 3d05h, direct
+100.64.52.168/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.169, Eth1/12, [0/0], 3d05h, direct
+100.64.52.172/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.173, Eth1/13, [0/0], 3d05h, direct
+100.64.52.176/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.177, Eth1/14, [0/0], 3d05h, direct
+100.64.52.180/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.181, Eth1/15, [0/0], 3d04h, direct
+100.64.52.184/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.185, Eth1/16, [0/0], 3d04h, direct
+100.64.52.188/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.189, Eth1/17, [0/0], 3d04h, direct
+100.64.52.192/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.193, Eth1/18, [0/0], 3d04h, direct
+100.64.52.196/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.197, Eth1/19, [0/0], 3d04h, direct
+100.64.52.200/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.201, Eth1/20, [0/0], 3d04h, direct
+100.64.52.204/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.205, Eth1/21, [0/0], 3d04h, direct
+100.64.52.208/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.209, Eth1/22, [0/0], 3d04h, direct
+     via 100.64.52.208, [200/0], 3d03h, bgp-64086.60185, internal, tag 64086.60185
+100.64.52.212/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.213, Eth1/23, [0/0], 3d03h, direct
+100.64.52.216/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.217, Eth1/24, [0/0], 3d03h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-416-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.40/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.40, Lo0, [0/0], 3d05h, direct
+10.29.36.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.99, Vlan101, [0/0], 3d05h, direct
+10.29.37.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.227, Vlan102, [0/0], 3d05h, direct
+100.64.52.152/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.152, Eth1/49, [0/0], 3d05h, direct
+100.64.52.154/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.154, Eth1/50, [0/0], 3d05h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-415-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.41/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.41, Lo0, [0/0], 3d05h, direct
+10.29.36.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.130, Vlan101, [0/0], 3d05h, direct
+10.29.38.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.2, Vlan102, [0/0], 3d05h, direct
+100.64.52.156/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.156, Eth1/49, [0/0], 3d05h, direct
+100.64.52.158/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.158, Eth1/50, [0/0], 3d05h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-415-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.42/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.42, Lo0, [0/0], 3d05h, direct
+10.29.36.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.131, Vlan101, [0/0], 3d05h, direct
+10.29.38.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.3, Vlan102, [0/0], 3d05h, direct
+100.64.52.160/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.160, Eth1/49, [0/0], 3d05h, direct
+100.64.52.162/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.162, Eth1/50, [0/0], 3d05h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-414-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.43/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.43, Lo0, [0/0], 3d05h, direct
+10.29.36.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.162, Vlan101, [0/0], 3d05h, direct
+10.29.38.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.34, Vlan102, [0/0], 3d04h, direct
+100.64.52.164/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.164, Eth1/49, [0/0], 3d05h, direct
+100.64.52.166/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.166, Eth1/50, [0/0], 3d05h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-414-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.44/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.44, Lo0, [0/0], 3d05h, direct
+10.29.36.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.163, Vlan101, [0/0], 3d05h, direct
+10.29.38.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.35, Vlan102, [0/0], 3d05h, direct
+100.64.52.168/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.168, Eth1/49, [0/0], 3d05h, direct
+100.64.52.170/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.170, Eth1/50, [0/0], 3d05h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-413-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.45/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.45, Lo0, [0/0], 3d05h, direct
+10.29.36.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.194, Vlan101, [0/0], 3d05h, direct
+10.29.38.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.66, Vlan102, [0/0], 3d05h, direct
+100.64.52.172/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.172, Eth1/49, [0/0], 3d05h, direct
+100.64.52.174/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.174, Eth1/50, [0/0], 3d05h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-413-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.46/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.46, Lo0, [0/0], 3d05h, direct
+10.29.36.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.195, Vlan101, [0/0], 3d05h, direct
+10.29.38.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.67, Vlan102, [0/0], 3d05h, direct
+100.64.52.176/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.176, Eth1/49, [0/0], 3d05h, direct
+100.64.52.178/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.178, Eth1/50, [0/0], 3d05h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-410-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.47/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.47, Lo0, [0/0], 3d04h, direct
+10.29.36.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.226, Vlan101, [0/0], 3d04h, direct
+10.29.38.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.98, Vlan102, [0/0], 3d04h, direct
+100.64.52.180/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.180, Eth1/49, [0/0], 3d04h, direct
+100.64.52.182/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.182, Eth1/50, [0/0], 3d04h, direct
+100.64.53.240/28, ubest/mbest: 1/0, attached
+    *via 100.64.53.242, Vlan188, [0/0], 3d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-410-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.48/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.48, Lo0, [0/0], 3d04h, direct
+10.29.36.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.36.227, Vlan101, [0/0], 3d04h, direct
+10.29.38.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.99, Vlan102, [0/0], 3d04h, direct
+100.64.52.184/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.184, Eth1/49, [0/0], 3d04h, direct
+100.64.52.186/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.186, Eth1/50, [0/0], 3d04h, direct
+100.64.53.240/28, ubest/mbest: 1/0, attached
+    *via 100.64.53.243, Vlan188, [0/0], 3d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-408-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.49/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.49, Lo0, [0/0], 3d04h, direct
+10.29.37.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.2, Vlan101, [0/0], 3d04h, direct
+10.29.38.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.130, Vlan102, [0/0], 3d04h, direct
+100.64.52.188/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.188, Eth1/49, [0/0], 3d04h, direct
+100.64.52.190/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.190, Eth1/50, [0/0], 3d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-412-CR-02B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.4/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.4, Lo0, [0/0], 6d03h, direct
+10.64.40.2/31, ubest/mbest: 1/0, attached
+    *via 10.64.40.3, Po2, [0/0], 6d02h, direct
+100.64.52.8/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.9, Eth1/46, [0/0], 6d02h, direct
+100.64.52.126/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.127, Eth1/1, [0/0], 3d06h, direct
+100.64.52.130/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.131, Eth1/2, [0/0], 3d06h, direct
+100.64.52.134/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.135, Eth1/3, [0/0], 3d06h, direct
+100.64.52.138/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.139, Eth1/4, [0/0], 3d06h, direct
+100.64.52.142/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.143, Eth1/5, [0/0], 3d05h, direct
+100.64.52.150/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.151, Eth1/7, [0/0], 3d05h, direct
+100.64.52.154/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.155, Eth1/8, [0/0], 3d05h, direct
+100.64.52.158/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.159, Eth1/9, [0/0], 3d05h, direct
+100.64.52.162/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.163, Eth1/10, [0/0], 3d05h, direct
+100.64.52.166/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.167, Eth1/11, [0/0], 3d05h, direct
+100.64.52.170/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.171, Eth1/12, [0/0], 3d05h, direct
+100.64.52.174/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.175, Eth1/13, [0/0], 3d05h, direct
+100.64.52.178/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.179, Eth1/14, [0/0], 3d05h, direct
+100.64.52.182/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.183, Eth1/15, [0/0], 3d04h, direct
+100.64.52.186/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.187, Eth1/16, [0/0], 3d04h, direct
+100.64.52.190/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.191, Eth1/17, [0/0], 3d04h, direct
+100.64.52.194/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.195, Eth1/18, [0/0], 3d04h, direct
+100.64.52.198/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.199, Eth1/19, [0/0], 3d04h, direct
+100.64.52.202/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.203, Eth1/20, [0/0], 3d04h, direct
+100.64.52.206/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.207, Eth1/21, [0/0], 3d04h, direct
+100.64.52.210/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.211, Eth1/22, [0/0], 3d04h, direct
+     via 100.64.52.210, [200/0], 3d03h, bgp-64086.60185, internal, tag 64086.60185
+100.64.52.214/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.215, Eth1/23, [0/0], 3d03h, direct
+100.64.52.218/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.219, Eth1/24, [0/0], 3d03h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-408-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.50/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.50, Lo0, [0/0], 3d04h, direct
+10.29.37.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.3, Vlan101, [0/0], 3d04h, direct
+10.29.38.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.131, Vlan102, [0/0], 3d04h, direct
+100.64.52.192/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.192, Eth1/49, [0/0], 3d04h, direct
+100.64.52.194/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.194, Eth1/50, [0/0], 3d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-402-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.51/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.51, Lo0, [0/0], 3d04h, direct
+10.29.37.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.34, Vlan101, [0/0], 3d04h, direct
+10.29.38.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.162, Vlan102, [0/0], 3d04h, direct
+100.64.52.196/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.196, Eth1/49, [0/0], 3d04h, direct
+100.64.52.198/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.198, Eth1/50, [0/0], 3d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-402-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.52/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.52, Lo0, [0/0], 3d04h, direct
+10.29.37.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.35, Vlan101, [0/0], 3d04h, direct
+10.29.38.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.163, Vlan102, [0/0], 3d04h, direct
+100.64.52.200/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.200, Eth1/49, [0/0], 3d04h, direct
+100.64.52.202/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.202, Eth1/50, [0/0], 3d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-401-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.53/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.53, Lo0, [0/0], 3d04h, direct
+10.29.37.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.66, Vlan101, [0/0], 3d04h, direct
+10.29.38.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.194, Vlan102, [0/0], 3d04h, direct
+100.64.52.204/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.204, Eth1/49, [0/0], 3d04h, direct
+100.64.52.206/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.206, Eth1/50, [0/0], 3d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-401-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.54/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.54, Lo0, [0/0], 3d04h, direct
+10.29.37.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.67, Vlan101, [0/0], 3d04h, direct
+10.29.38.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.195, Vlan102, [0/0], 3d04h, direct
+100.64.52.208/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.208, Eth1/49, [0/0], 3d04h, direct
+100.64.52.210/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.210, Eth1/50, [0/0], 3d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-301-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.55/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.55, Lo0, [0/0], 3d03h, direct
+10.29.37.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.98, Vlan101, [0/0], 3d03h, direct
+10.29.38.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.226, Vlan102, [0/0], 3d03h, direct
+100.64.52.212/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.212, Eth1/49, [0/0], 3d03h, direct
+100.64.52.214/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.214, Eth1/50, [0/0], 3d03h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-301-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.56/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.56, Lo0, [0/0], 3d03h, direct
+10.29.37.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.37.99, Vlan101, [0/0], 3d03h, direct
+10.29.38.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.38.227, Vlan102, [0/0], 3d03h, direct
+100.64.52.216/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.216, Eth1/49, [0/0], 3d03h, direct
+100.64.52.218/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.218, Eth1/50, [0/0], 3d03h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-410-MD-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.57/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.57, Lo0, [0/0], 6d02h, direct
+10.29.45.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.45.2, Vlan2001, [0/0], 6d02h, direct
+100.64.52.22/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.22, Eth1/45, [0/0], 4d07h, direct
+100.64.52.24/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.24, Eth1/46, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-410-MD-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.58/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.58, Lo0, [0/0], 6d02h, direct
+10.29.45.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.45.131, Vlan2001, [0/0], 6d02h, direct
+100.64.52.26/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.26, Eth1/45, [0/0], 4d07h, direct
+100.64.52.28/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.28, Eth1/46, [0/0], 6d02h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-302-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.59/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.59, Lo0, [0/0], 6d04h, direct
+10.29.39.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.39.130, Vlan1951, [0/0], 6d04h, direct
+100.64.52.220/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.220, Eth1/45, [0/0], 6d04h, direct
+100.64.52.222/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.222, Eth1/46, [0/0], 6d04h, direct
+138.8.125.128/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.130, Vlan1150, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-412-CR-03A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.5/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.5, Lo0, [0/0], 6d04h, direct
+10.64.40.4/31, ubest/mbest: 1/0, attached
+    *via 10.64.40.4, Po2, [0/0], 6d04h, direct
+100.64.52.10/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.10, Eth1/46, [0/0], 4d07h, direct
+100.64.52.220/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.221, Eth1/1, [0/0], 6d04h, direct
+100.64.52.224/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.225, Eth1/2, [0/0], 6d04h, direct
+100.64.52.228/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.229, Eth1/3, [0/0], 4d07h, direct
+100.64.52.232/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.233, Eth1/4, [0/0], 4d07h, direct
+100.64.52.236/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.237, Eth1/5, [0/0], 6d04h, direct
+100.64.52.240/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.241, Eth1/6, [0/0], 6d04h, direct
+100.64.52.246/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.247, Eth1/7, [0/0], 6d04h, direct
+100.64.52.248/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.249, Eth1/8, [0/0], 6d04h, direct
+100.64.52.252/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.252, Eth1/10, [0/0], 1d07h, direct
+100.64.52.254/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.254, Eth1/9, [0/0], 6d04h, direct
+100.64.53.4/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.4, Eth1/11, [0/0], 1d07h, direct
+100.64.53.6/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.6, Eth1/12, [0/0], 1d07h, direct
+100.64.53.12/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.12, Eth1/13, [0/0], 13:33:10, direct
+100.64.53.14/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.14, Eth1/14, [0/0], 1d07h, direct
+100.64.53.20/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.20, Eth1/15, [0/0], 4d14h, direct
+100.64.53.22/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.22, Eth1/16, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-302-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.60/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.60, Lo0, [0/0], 6d04h, direct
+10.29.39.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.39.131, Vlan1951, [0/0], 6d04h, direct
+     via 100.64.52.225, [200/0], 6d04h, bgp-64086.60186, internal, tag 64086.60186
+100.64.52.224/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.224, Eth1/45, [0/0], 6d04h, direct
+100.64.52.226/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.226, Eth1/46, [0/0], 6d04h, direct
+138.8.125.128/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.131, Vlan1150, [0/0], 6d04h, direct
+     via 100.64.52.225, [200/0], 6d04h, bgp-64086.60186, internal, tag 64086.60186
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-312-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.61/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.61, Lo0, [0/0], 4d07h, direct
+10.29.40.176/28, ubest/mbest: 1/0, attached
+    *via 10.29.40.178, Vlan1951, [0/0], 4d07h, direct
+100.64.52.228/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.228, Eth1/45, [0/0], 4d07h, direct
+100.64.52.230/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.230, Eth1/46, [0/0], 4d07h, direct
+138.8.125.160/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.162, Vlan1150, [0/0], 4d07h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-312-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.62/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.62, Lo0, [0/0], 4d07h, direct
+10.29.40.176/28, ubest/mbest: 1/0, attached
+    *via 10.29.40.179, Vlan1951, [0/0], 4d07h, direct
+100.64.52.232/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.232, Eth1/45, [0/0], 4d07h, direct
+100.64.52.234/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.234, Eth1/46, [0/0], 4d07h, direct
+138.8.125.160/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.163, Vlan1150, [0/0], 4d07h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-319-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.63/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.63, Lo0, [0/0], 6d04h, direct
+10.29.40.192/28, ubest/mbest: 1/0, attached
+    *via 10.29.40.194, Vlan1951, [0/0], 6d04h, direct
+     via 100.64.52.237, [200/0], 6d04h, bgp-64086.60186, internal, tag 64086.60186
+100.64.52.236/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.236, Eth1/45, [0/0], 6d04h, direct
+100.64.52.238/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.238, Eth1/46, [0/0], 6d04h, direct
+138.8.125.192/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.194, Vlan1150, [0/0], 6d04h, direct
+     via 100.64.52.237, [200/0], 6d04h, bgp-64086.60186, internal, tag 64086.60186
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-319-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.64/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.64, Lo0, [0/0], 6d04h, direct
+10.29.40.192/28, ubest/mbest: 1/0, attached
+    *via 10.29.40.195, Vlan1951, [0/0], 6d04h, direct
+100.64.52.240/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.240, Eth1/45, [0/0], 6d04h, direct
+100.64.52.242/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.242, Eth1/46, [0/0], 6d04h, direct
+138.8.125.192/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.195, Vlan1150, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-219-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.65/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.65, Lo0, [0/0], 6d04h, direct
+10.29.39.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.39.98, Vlan1951, [0/0], 6d04h, direct
+100.64.52.246/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.246, Eth1/45, [0/0], 6d04h, direct
+138.8.125.224/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.226, Vlan1150, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-219-RA-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.66/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.66, Lo0, [0/0], 6d04h, direct
+10.29.39.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.39.99, Vlan1951, [0/0], 6d04h, direct
+100.64.52.248/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.248, Eth1/45, [0/0], 6d04h, direct
+100.64.52.250/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.250, Eth1/46, [0/0], 6d04h, direct
+138.8.125.224/27, ubest/mbest: 1/0, attached
+    *via 138.8.125.227, Vlan1150, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-302-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.67/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.67, Lo0, [0/0], 6d04h, direct
+10.29.41.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.2, Vlan151, [0/0], 4d06h, direct
+10.29.41.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.130, Vlan152, [0/0], 4d06h, direct
+100.64.52.254/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.255, Eth1/49, [0/0], 6d04h, direct
+100.64.53.2/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.3, Eth1/50, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-302-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.68/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.68, Lo0, [0/0], 6d04h, direct
+10.29.41.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.3, Vlan151, [0/0], 3d05h, direct
+100.64.52.252/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.253, Eth1/49, [0/0], 1d07h, direct
+100.64.53.0/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.1, Eth1/50, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-312-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.69/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.69, Lo0, [0/0], 6d04h, direct
+10.29.41.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.34, Vlan151, [0/0], 4d07h, direct
+10.29.41.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.162, Vlan152, [0/0], 4d07h, direct
+100.64.53.4/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.5, Eth1/49, [0/0], 1d07h, direct
+100.64.53.8/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.9, Eth1/50, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-412-CR-03B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.6/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.6, Lo0, [0/0], 6d04h, direct
+10.64.40.4/31, ubest/mbest: 1/0, attached
+    *via 10.64.40.5, Po2, [0/0], 6d04h, direct
+100.64.52.12/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.12, Eth1/46, [0/0], 6d02h, direct
+100.64.52.222/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.223, Eth1/1, [0/0], 6d04h, direct
+100.64.52.226/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.227, Eth1/2, [0/0], 6d04h, direct
+100.64.52.230/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.231, Eth1/3, [0/0], 4d07h, direct
+100.64.52.234/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.235, Eth1/4, [0/0], 4d07h, direct
+100.64.52.238/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.239, Eth1/5, [0/0], 6d04h, direct
+100.64.52.242/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.243, Eth1/6, [0/0], 6d04h, direct
+100.64.52.244/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.245, Eth1/7, [0/0], 00:01:28, direct
+100.64.52.250/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.251, Eth1/8, [0/0], 6d04h, direct
+100.64.53.0/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.0, Eth1/10, [0/0], 6d04h, direct
+100.64.53.2/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.2, Eth1/9, [0/0], 6d04h, direct
+100.64.53.8/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.8, Eth1/11, [0/0], 6d04h, direct
+100.64.53.10/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.10, Eth1/12, [0/0], 1d07h, direct
+100.64.53.16/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.16, Eth1/13, [0/0], 6d04h, direct
+100.64.53.18/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.18, Eth1/14, [0/0], 1d07h, direct
+100.64.53.24/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.24, Eth1/15, [0/0], 4d14h, direct
+100.64.53.26/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.26, Eth1/16, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-312-MG-01b
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.70/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.70, Lo0, [0/0], 4d14h, direct
+10.29.41.32/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.35, Vlan101, [0/0], 4d14h, direct
+10.29.41.160/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.163, Vlan102, [0/0], 4d14h, direct
+100.64.53.6/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.7, Eth1/49, [0/0], 1d07h, direct
+100.64.53.10/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.11, Eth1/50, [0/0], 1d07h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-319-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.71/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.71, Lo0, [0/0], 6d04h, direct
+10.29.41.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.66, Vlan151, [0/0], 4d07h, direct
+10.29.41.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.194, Vlan152, [0/0], 4d07h, direct
+100.64.53.12/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.13, Eth1/49, [0/0], 13:32:25, direct
+100.64.53.16/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.17, Eth1/50, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-319-MG-01b
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.72/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.72, Lo0, [0/0], 5d10h, direct
+10.29.41.64/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.67, Vlan101, [0/0], 5d10h, direct
+10.29.41.192/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.195, Vlan102, [0/0], 5d10h, direct
+100.64.53.14/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.15, Eth1/49, [0/0], 1d07h, direct
+100.64.53.18/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.19, Eth1/50, [0/0], 1d07h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-219-MG-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.73/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.73, Lo0, [0/0], 4d14h, direct
+10.29.41.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.98, Vlan151, [0/0], 3d05h, direct
+10.29.41.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.226, Vlan152, [0/0], 3d05h, direct
+100.64.53.20/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.21, Eth1/49, [0/0], 4d14h, direct
+100.64.53.24/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.25, Eth1/50, [0/0], 4d14h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-219-MG-01B
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.74/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.74, Lo0, [0/0], 6d04h, direct
+10.29.41.96/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.99, Vlan151, [0/0], 3d05h, direct
+10.29.41.224/27, ubest/mbest: 1/0, attached
+    *via 10.29.41.227, Vlan152, [0/0], 3d05h, direct
+100.64.53.22/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.23, Eth1/49, [0/0], 6d04h, direct
+100.64.53.26/31, ubest/mbest: 1/0, attached
+    *via 100.64.53.27, Eth1/50, [0/0], 6d04h, direct
+COMMAND: show run | i hostname
+hostname NY4-GSET-9010-419-RA-01A
+COMMAND: show ip route direct
+IP Route Table for VRF "default"
+'*' denotes best ucast next-hop
+'**' denotes best mcast next-hop
+'[x/y]' denotes [preference/metric]
+'%<string>' in via output denotes VRF <string>
+
+10.29.32.9/32, ubest/mbest: 2/0, attached
+    *via 10.29.32.9, Lo0, [0/0], 6d02h, direct
+10.29.33.0/27, ubest/mbest: 1/0, attached
+    *via 10.29.33.2, Vlan1901, [0/0], 6d02h, direct
+10.29.34.128/27, ubest/mbest: 1/0, attached
+    *via 10.29.34.130, Vlan4060, [0/0], 6d02h, direct
+100.64.52.30/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.30, Eth1/45, [0/0], 4d07h, direct
+100.64.52.32/31, ubest/mbest: 1/0, attached
+    *via 100.64.52.32, Eth1/46, [0/0], 6d02h, direct
+138.8.124.0/27, ubest/mbest: 1/0, attached
+    *via 138.8.124.2, Vlan1100, [0/0], 6d02h, direct

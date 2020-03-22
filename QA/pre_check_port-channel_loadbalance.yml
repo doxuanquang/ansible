@@ -1,0 +1,22 @@
+---
+- name: NY4 Expansion QA
+  hosts: all
+  gather_facts: no
+  connection: local
+  vars:
+    commands:
+        - show port-channel load-balance
+  tasks:
+  - nxos_command:
+      provider:
+        # Use enable mode?
+        authorize: yes
+      commands: "{{ commands }}"
+    register: results
+
+  - debug:
+     msg: "{{ results }}"
+  - template:
+      src: templates/logfile.j2
+      dest: "~/ansible_example/gs_ny4_expansion_q2_2019/QA/results/load_balance/pre_loadbalance_{{ inventory_hostname }}.txt"
+
