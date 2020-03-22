@@ -6,6 +6,7 @@
   vars:
     commands:
       - show ver
+      - show interface status
   tasks:
   - nxos_command:
       provider:
