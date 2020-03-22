@@ -11,7 +11,7 @@
       provider:
         authorize: yes
       commands: "{{ commands }}"
-      wait_for: result[0] contains IOS
+      wait_for: result[0] contains NXOS
     register: results
   - template:
         src: templates/logfile.j2
