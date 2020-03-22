@@ -1,0 +1,17 @@
+---
+- name: Show ver
+  hosts: all
+  gather_facts: no
+  connection: local
+  vars:
+    commands:
+      - show ver
+  tasks:
+  - ios_command:
+      provider:
+        authorize: yes
+      commands: "{{ commands }}"
+    register: results
+  - template:
+        src: templates/logfile.j2
+        dest: "~/sre/ansible/{{ inventory_hostname }}.txt"

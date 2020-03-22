@@ -1,0 +1,7 @@
+{% for block in results.stdout_lines %}
+COMMAND: {{ commands[loop.index0] }}
+{% for line in block %}
+{{ line }}
+{% endfor %}
+{% endfor %}
+
