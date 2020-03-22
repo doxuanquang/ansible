@@ -7,11 +7,11 @@
     commands:
       - show ver
   tasks:
-  - ios_command:
+  - nxos_command:
       provider:
         authorize: yes
       commands: "{{ commands }}"
-      wait_for: result[0] contains NXOS
+#      wait_for: result[0] contains IOS
     register: results
   - template:
         src: templates/logfile.j2
