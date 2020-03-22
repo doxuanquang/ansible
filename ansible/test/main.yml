@@ -16,6 +16,8 @@
         - show ip interface brief      
 #      wait_for: result[0] contains IOS
     register: results
+  - debug:
+      msg: "{{ results }}"
   - template:
         src: templates/logfile.j2
         dest: "~/sre/ansible/{{ inventory_hostname }}.txt"
