@@ -18,8 +18,6 @@
     register: results
   - debug:
       msg: "{{ results }}"
-  - template:ZZ
-
-
+  - template:
         src: templates/logfile.j2
         dest: "~/SRE/ansible/playbooks/test/pre_{{ inventory_hostname }}.txt"
