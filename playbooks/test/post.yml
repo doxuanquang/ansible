@@ -20,4 +20,4 @@
       msg: "{{ results }}"
   - template:
         src: templates/logfile.j2
-        dest: "~/sre/sre_git/ansible/test/post_{{ inventory_hostname }}.txt"
+        dest: "~/SRE/ansible/playbooks/test/post_{{ inventory_hostname }}.txt"

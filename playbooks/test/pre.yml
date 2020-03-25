@@ -22,4 +22,4 @@
 
 
         src: templates/logfile.j2
-        dest: "~/sre/sre_git/ansible/test/pre_{{ inventory_hostname }}.txt"
+        dest: "~/SRE/ansible/playbooks/test/pre_{{ inventory_hostname }}.txt"
